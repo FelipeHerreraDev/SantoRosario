@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>Santo Rosario</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="/js/script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="img/3.webp" alt="">
+    </header>
+
+    <div class="info-container">
+      <h1 class="title">
+        Santo Rosario
+      </h1>
+  
+      <p class="info">
+        La oración más poderosa ante Dios es la que hacemos a través de su Santísima Madre, particularmente el Rosario, en él oramos como nos enseñó y contemplamos la vida de Jesús.
+      </p>
+  
+      <!-- Botón para abrir el modal -->
+      <button id="abrir-modal-btn">Ver: Qué es el Rosario según la carta Apostólica "ROSARIUM VIRGINIS MARIAE" del sumo Pontífice San Juan Pablo II</button>
+  
+      <!-- El Modal -->
+      <div id="miModal" class="modal">
+          <!-- Contenido del Modal -->
+          <div class="modal-contenido">
+              <span class="cerrar">&times;</span>
+              <h2>ROSARIUM VIRGINIS MARIAE" del sumo Pontífice San Juan Pablo II</h2>
+              <p>
+                El Rosario de la Virgen María, difundido gradualmente en el segundo Milenio bajo el soplo del Espíritu de Dios, es una oración apreciada por numerosos Santos y fomentada por el Magisterio. En su sencillez y profundidad, sigue siendo también en este tercer Milenio apenas iniciado una oración de gran significado, destinada a producir frutos de santidad. Se encuadra bien en el camino espiritual de un cristianismo que, después de dos mil años, no ha perdido nada de la novedad de los orígenes, y se siente empujado por el Espíritu de Dios a «remar mar adentro» (duc in altum!), para anunciar, más aún, 'proclamar' a Cristo al mundo como Señor y Salvador, «el Camino, la Verdad y la Vida» (Jn14, 6), el «fin de la historia humana, el punto en el que convergen los deseos de la historia y de la civilización». <br><br>
+  
+                El Rosario, en efecto, aunque se distingue por su carácter mariano, es una oración centrada en la cristología. En la sobriedad de sus partes, concentra en sí la profundidad de todo el mensaje evangélico, del cual es como un compendio. En él resuena la oración de María, su perenne Magnificat por la obra de la Encarnación redentora en su seno virginal. Con él, el pueblo cristiano aprende de María a contemplar la belleza del rostro de Cristo y a experimentar la profundidad de su amor. Mediante el Rosario, el creyente obtiene abundantes gracias, como recibiéndolas de las mismas manos de la Madre del Redentor.
+              </p>
+          </div>
+      </div>
+    </div>
+    
+    <section class="misterios">
+      <div class="title-misterios-container">
+        <img src="img/rosary.png" height="32px" alt="">
+        <h2 class="info">
+          Misterios del Santo Rosario
+        </h2>
+      </div>
+      <div class="grid-container">
+        <div class="col">
+          <div class="card">
+            <img src="img/misteriosGozosos.webp" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MISTERIOS GOZOSOS</h5>
+              <small>(Se oran los lunes y sábados)</small>
+              <p class="card-text">Me ayudan a contemplar parte de la vida de María y la infancia de Jesús. </p>
+              <a href="misterios-gozosos.html" class="btn-misterios btn-primary" data-misterio="gozosos">Rezar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/misteriosDolorosos.webp" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MISTERIOS DOLOROSOS</h5>
+              <small>(Se oran los martes y viernes)</small>
+              <p class="card-text">Me ayudan a contemplar el dolor que Sufrió Jesús hasta su muerte.</p>
+              <a href="misterios-dolorosos.html" class="btn-misterios btn-primary" data-misterio="dolorosos">Rezar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/MisteriosGloriosos.webp" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MISTERIOS GLORIOSOS</h5>
+              <small>(Se oran los miércoles y domingos)</small>
+              <p class="card-text">Me ayudan a contemplar  la gloria, el triunfo de Jesús y de María.</p>
+              <a href="misterios-gloriosos.html" class="btn-misterios btn-primary" data-misterio="gloriosos">Rezar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img/MisteriosLuminosos.webp" class="card-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MISTERIOS LUMINOSOS</h5>
+              <small>(Se oran los jueves)</small>
+              <p class="card-text">Me ayudan a contemplar la Vida pública de Jesús.</p>
+              <a href="misterios-luminosos.html" class="btn-misterios btn-primary" data-misterio="luminosos">Rezar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal para mostrar métodos -->
+      <!-- El Modal -->
+      <div id="modal-metodos" class="modal">
+        <!-- Contenido del Modal -->
+        <div class="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <div class="metodos-mont">
+              <h3>MÉTODOS MONTFORTIANOS</h3>
+              <div id="primero" class="card-met">
+                <h4>Primero:</h4>
+                <p>Tiene un ofrecimiento general del Rosario pidiendo al Señor la gracia de evitar las distracciones y luego un ofrecimiento particular de cada decena. Al final de la decena se hace una acción de gracias.</p>
+
+                <button class="btn-primary opcion-rezo" data-opcion="montfortiano1">Iniciar</button>
+              </div>
+              
+              <div id="segundo" class="card-met">
+                <h4>Segundo:</h4>
+                <p>Método más corto para celebrar la vida, muerte y gloria de Jesús y de María con la recitación del Santo Rosario y para disminuir las distracciones de la imaginación.</p>
+                <button class="btn-primary opcion-rezo" data-opcion="montfortiano2">Iniciar</button>
+              </div>
+              
+              <div id="tercero" class="card-met">
+                <h4>Tercero:</h4>
+                <p>Compendio de la vida, muerte, pasión y gloria de Jesús y de María en el Santo Rosario.</p>
+                <button class="btn-primary opcion-rezo" data-opcion="montfortiano3">Iniciar</button>
+              </div>
+            </div>
+
+            <div class="metodo-biblico card-met">
+              <h4>
+                MÉTODO BÍBLICO - CONTEMPLADO
+              </h4>
+              <p>
+                Este método bíblico-contemplado nos ofrece la posibilidad de meditar los misterios con los mismos textos bíblicos a que se refiere cada uno de ellos, como nos lo sugiere el mismo Papa San Juan Pablo II en su carta sobre el Santo Rosario No. 30. Después del enunciado del texto bíblico hay una acción de gracias y una petición especial al Señor.
+              </p>
+              <button class="btn-primary opcion-rezo" data-opcion="biblico">Iniciar</button>
+            </div>
+
+            <div class="metodo-cantado card-met">
+              <h4>
+                MÉTODO CANTADO
+              </h4>
+              <p>
+                (Con melodía del ave de Fátima o ave de Lourdes) Composición de César Navarrete. <br><br>
+                Muy a propósito para que nuestra oración se vuelva canción según la famosa frase de San Agustín "El que canta ora dos veces" pues no sólo canta alabanzas sino que también alaba al Señor con alegría...
+              </p>
+              <button class="btn-primary opcion-rezo" data-opcion="cantado">Iniciar</button>
+            </div>
+
+            <div class="metodo-vocacional card-met">
+              <h4>
+                ROSARIO VOCACIONAL
+              </h4>
+              <p>
+                Es un método para pedir especialmente por las vocaciones siguiendo la voluntad expresa del Señor que nos invita a pedir apóstoles para la extensión de su Reino "Rueguen al Señor de la mies que envíe operarios a su mies" (Mt. 9,38)
+              </p>
+              <button class="btn-primary opcion-rezo" data-opcion="vocacional">Iniciar</button>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+  </main>
+</body>
+</html>

@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+  <title>Santo Rosario | Misterios Dolorosos</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/misterios.css">
+  <script src="/js/misterios.js" defer></script>
+
+</head>
+<body>
+  <header class="header">
+    <a href="/index.html" class="title">Santo Rosario</a>
+  </header>
+
+    <!-- ********** MENÚ ********* -->
+  <button class="menu-btn hamburger hamburger--squeeze" type="button" title="Menú">
+    <span class="btn-box hamburger-box">
+      <span class="btn-inner hamburger-inner"></span>
+    </span>
+  </button>
+
+  <aside class="panel">
+    <nav class="menu">
+      <a href="/index.html" data-scroll-spy>Home</a>
+      <a href="#inicio" data-scroll-spy>Inicio</a>
+      <a href="#oraciones-iniciales" data-scroll-spy>Oraciones Iniciales</a>
+      <a href="#primer-misterio" data-scroll-spy>Primer Misterio</a>
+      <a href="#segundo-misterio" data-scroll-spy>Segundo Misterio</a>
+      <a href="#tercer-misterio" data-scroll-spy>Tercer Misterio</a>
+      <a href="#cuarto-misterio" data-scroll-spy>Cuarto Misterio</a>
+      <a href="#quinto-misterio" data-scroll-spy>Quinto Misterio</a>
+      <a href="#oraciones-finales" data-scroll-spy>Oraciones Finales</a>
+      <a href="#letanias" data-scroll-spy>Letanias Lauretanas</a>
+    </nav>
+  </aside>
+
+  <main>
+    <!-- -------------------- TÍTULOS -------------------- -->
+    <div class="title-container">
+      <h1 class="title">Misterios Dolorosos</h1>
+      <a href="/views/misterios-dolorosos/metodo-vocacional.html" class="sub-title">Método Vocacional</a>
+    </div>
+
+    <!-- -------------------- BARRA DE PROGRESO -------------------- -->
+    <div class="progress-container">
+      <div id="progress-bar"></div>
+      <div class="progress-circles">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+    </div>
+
+    <!-- -------------------- CONTENEDOR DE LAS ORACIONES -------------------- -->
+    <div id="rosario-container">
+      <div class="oracion active" id="inicio">
+        <h3>Inicio</h3>
+        <p>
+          Es un método para pedir especialmente por las vocaciones siguiendo la voluntad expresa del Señor que nos invita a pedir apóstoles para la extensión de su Reino "Rueguen al Señor de la mies que envíe operarios a su mies" (Mt. 9,38)
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Persignarse</h3>
+        <p>
+          Por la señal de la Santa Cruz, de nuestros enemigos líbranos 
+          Señor Dios Nuestro.<br><br>
+          En el nombre del Padre, del Hijo y del Espíritu Santo. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Peticiones</h3>
+        <p>
+          Ofrecemos este Santo Rosario por...
+        </p>
+      </div>
+
+      <div class="oracion" id="oraciones-iniciales">
+        <h3>Invocación del Espíritu Santo</h3>
+        <p>
+          Ven Espíritu que formas mártires y confesores, apóstoles y profetas, héroes y almas grandes. Conducido por Ti vivió Jesús mi Señor; a fin de que yo lo imite, condúceme como a Él.
+          <br><br>
+          Señor te ofrecemos este Santo Rosario para que en María y por María renueves tu Iglesia con religiosos, laicos y sacerdotes santos. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Acto de contrición</h3>
+        <p>
+          Jesús, mi Señor y Redentor, yo me arrepiento de todos los pecados que he cometido hasta hoy, y me pesa de todo corazón, porque con ellos he ofendido a un Dios tan bueno. <br> Propongo firmemente no volver a pecar y confío que por tu infinita misericordia me has de conceder el perdón de mis culpas y me has de llevar a la vida eterna. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Ofrecimiento General</h3>
+        <p>
+          Me uno a todos los santos del cielo, a todos los justos de la tierra y a todas la almas fieles de este lugar. Me uno a ti, Jesús mío, para alabar dignamente a tu Santísima Madre y alabarte en Ella y por Ella.
+          <br><br>
+          Renuncio a todas las distracciones que me sobrevengan durante este Rosario. Quiero rezarlo con modestia, atención y devoción, como si fuera el último de mi vida. <br>R/. <b>Amén.</b>
+          <br><br>
+          Te ofrecemos, Santísima Trinidad, este Credo para honrar todos los misterios de nuestra fe; este Padrenuestro y estas tres Avemarías para honrar la unidad de tu esencia y la Trinidad de tus personas. <br>R/. <b>Amén.</b>
+          <br><br>
+          Te pedimos fe viva, firme esperanza y ardiente caridad.
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Credo</h3>
+        <p>
+          Creo en Dios, Padre todopoderoso, Creador del cielo y de la tierra. <br><br>
+          Creo en Jesucristo, su único Hijo, nuestro Señor, que fue concebido por obra y gracia del Espíritu Santo, nació de Santa María Virgen, padeció bajo el poder de Poncio Pilato, fue crucificado, muerto y sepultado, descendió a los infiernos, al tercer día resucitó de entre los muertos, subió a los cielos y está sentado a la derecha de Dios, Padre todopoderoso. Desde allí ha de venir a juzgar a vivos y muertos.<br><br>
+          Creo en el Espíritu Santo, la santa Iglesia católica, la comunión de los santos, el perdón de los pecados, la resurrección de la carne y la vida eterna. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Padre Nuestro</h3>
+        <p>
+          Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo.<br><br>
+          Danos hoy nuestro pan de cada día; perdona nuestras ofensas como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>1<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>2<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>3<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Gloria</h3>
+        <p>
+          Gloria al Padre y al Hijo y al Espíritu Santo.<br>
+          Como era en el principio, ahora y siempre, por los siglos de los siglos. <b>Amén.</b>
+        </p>
+      </div>
+
+      <!-- -------------------- PRIMER MISTERIO -------------------- -->
+      <div class="oracion" id="primer-misterio"> 
+        <h3>Primer Misterio</h3>
+        <p>
+          <b>La oración de Jesús en el huerto de los olivos</b>
+          <br><br>
+          Contemplemos a Jesús en el huerto de Getsemaní, experimentando angustia y tristeza porque el hombre no entiende el proyecto salvador de Dios. Ante esta situación Jesús ora ante el Padre del cielo para que se cumpla su Voluntad.
+          <br><br>
+          Pidamos en este misterio por los jóvenes para que en sus momentos de angustia y tristeza busquen hacer siempre la voluntad de Dios.
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Padre Nuestro</h3>
+        <p>
+          Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo.<br><br>
+          Danos hoy nuestro pan de cada día; perdona nuestras ofensas como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>1<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>2<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>3<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>4<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>5<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>6<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>7<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>8<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>9<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>10<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Gloria</h3>
+        <p>
+          Gloria al Padre y al Hijo y al Espíritu Santo.<br>
+          Como era en el principio, ahora y siempre, por los siglos de los siglos. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Jaculatorias</h3>
+        <p>
+          <b>María, Madre de gracia, Madre de misericordia</b>: En la vida y en la muerte, ampáranos, gran Señora.
+          <br><br>
+          <b>Oh mi buen Jesús</b>: Perdona nuestros pecados, líbranos del fuego del infierno, lleva al Cielo a todas las almas, especialmente a las más necesitadas de Tu infinita misericordia.
+          <br><br>
+          <b>Sagrado Corazón de Jesús</b>: en vos confío.
+        </p>
+      </div>
+
+      <!-- -------------------- SEGUNDO MISTERIO -------------------- -->
+      <div class="oracion" id="segundo-misterio"> 
+        <h3>Segundo Misterio</h3>
+        <p>
+          <b>La flagelación de Jesús</b>
+          <br><br>
+          Contemplemos a Jesús que es azotado por mandato del pueblo en manos de los dirigentes políticos cuando tiene que ser testigo de la Verdad que vivió y proclamó.
+          <br><br>
+          Pidamos por los jóvenes que, a su edad, son amantes de la verdad y rechazan toda falsedad y engaño para que sean testigos de la Verdad, Jesucristo.
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Padre Nuestro</h3>
+        <p>
+          Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo.<br><br>
+          Danos hoy nuestro pan de cada día; perdona nuestras ofensas como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>1<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>2<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>3<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>4<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>5<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>6<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>7<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>8<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>9<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>10<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Gloria</h3>
+        <p>
+          Gloria al Padre y al Hijo y al Espíritu Santo.<br>
+          Como era en el principio, ahora y siempre, por los siglos de los siglos. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Jaculatorias</h3>
+        <p>
+          <b>María, Madre de gracia, Madre de misericordia</b>: En la vida y en la muerte, ampáranos, gran Señora.
+          <br><br>
+          <b>Oh mi buen Jesús</b>: Perdona nuestros pecados, líbranos del fuego del infierno, lleva al Cielo a todas las almas, especialmente a las más necesitadas de Tu infinita misericordia.
+          <br><br>
+          <b>Sagrado Corazón de Jesús</b>: en vos confío.
+        </p>
+      </div>
+
+      <!-- -------------------- TERCER MISTERIO -------------------- -->
+      <div class="oracion" id="tercer-misterio"> 
+        <h3>Tercer Misterio</h3>
+        <p>
+          <b>Jesús es coronado de espinas</b>
+          <br><br>
+          Contemplemos a Jesús que pasa por manos injustas que lo coronan con las espinas de la ignorancia humana y es humillado por personas que desconocen su verdadero ser de Dios.
+          <br><br>
+          Pidamos por aquellos jóvenes que son víctimas del maltrato con gestos, palabras, actitudes y mensajes que acaban con su dignidad de seguidores de Cristo.
+        </p>
+      </div>
+      
+      <div class="oracion">
+        <h3>Padre Nuestro</h3>
+        <p>
+          Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo.<br><br>
+          Danos hoy nuestro pan de cada día; perdona nuestras ofensas como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>1<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>2<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>3<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>4<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>5<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>6<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>7<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>8<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>9<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>10<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Gloria</h3>
+        <p>
+          Gloria al Padre y al Hijo y al Espíritu Santo.<br>
+          Como era en el principio, ahora y siempre, por los siglos de los siglos. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Jaculatorias</h3>
+        <p>
+          <b>María, Madre de gracia, Madre de misericordia</b>: En la vida y en la muerte, ampáranos, gran Señora.
+          <br><br>
+          <b>Oh mi buen Jesús</b>: Perdona nuestros pecados, líbranos del fuego del infierno, lleva al Cielo a todas las almas, especialmente a las más necesitadas de Tu infinita misericordia.
+          <br><br>
+          <b>Sagrado Corazón de Jesús</b>: en vos confío.
+        </p>
+      </div>
+
+      <!-- -------------------- CUARTO MISTERIO -------------------- -->
+      <div class="oracion" id="cuarto-misterio"> 
+        <h3>Cuarto Misterio</h3>
+        <p>
+          <b>Jesús carga con la cruz a cuestas</b>
+          <br><br>
+          Contemplemos a Jesús humilde, paciente y lleno de amor de Dios que, experimentando la debilidad humana, carga con la cruz para mostrar el verdadero camino de la salvación a la humanidad.
+          <br><br>
+          Pidamos en este misterio por los jóvenes para que contemplando a Jesús en el camino de la cruz asuman con alegría, firmeza y fe la crisis de la juventud en el camino de la vocación a la cual Dios los llama.
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Padre Nuestro</h3>
+        <p>
+          Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo.<br><br>
+          Danos hoy nuestro pan de cada día; perdona nuestras ofensas como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>1<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>2<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>3<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>4<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>5<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>6<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>7<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>8<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>9<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>10<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Gloria</h3>
+        <p>
+          Gloria al Padre y al Hijo y al Espíritu Santo.<br>
+          Como era en el principio, ahora y siempre, por los siglos de los siglos. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Jaculatorias</h3>
+        <p>
+          <b>María, Madre de gracia, Madre de misericordia</b>: En la vida y en la muerte, ampáranos, gran Señora.
+          <br><br>
+          <b>Oh mi buen Jesús</b>: Perdona nuestros pecados, líbranos del fuego del infierno, lleva al Cielo a todas las almas, especialmente a las más necesitadas de Tu infinita misericordia.
+          <br><br>
+          <b>Sagrado Corazón de Jesús</b>: en vos confío.
+        </p>
+      </div>
+
+      <!-- -------------------- QUINTO MISTERIO -------------------- -->
+      <div class="oracion" id="quinto-misterio"> 
+        <h3>Quinto Misterio</h3>
+        <p>
+          <b>Jesús muere en el calvario</b>
+          <br><br>
+          Contemplemos a Jesús clavado en la cruz que, experimentando el desprecio y abandono del hombre, se muestra convencido de la misión encomendada por el Padre, al exclamar: "Padre, en tus manos encomiendo mi espíritu".
+          <br><br>
+          Pidamos en este misterio por los jóvenes que han escuchado el llamado de Dios para que, en las dificultades de su opción, contemplen a Jesús en la cruz y con Él digan: "Padre, en tus manos encomiendo mi espíritu".
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Padre Nuestro</h3>
+        <p>
+          Padre nuestro, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo.<br><br>
+          Danos hoy nuestro pan de cada día; perdona nuestras ofensas como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>1<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>2<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>3<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>4<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>5<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>6<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>7<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>8<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>9<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+      <div class="oracion">
+        <h3>10<sup>a</sup> Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Gloria</h3>
+        <p>
+          Gloria al Padre y al Hijo y al Espíritu Santo.<br>
+          Como era en el principio, ahora y siempre, por los siglos de los siglos. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Jaculatorias</h3>
+        <p>
+          <b>María, Madre de gracia, Madre de misericordia</b>: En la vida y en la muerte, ampáranos, gran Señora.
+          <br><br>
+          <b>Oh mi buen Jesús</b>: Perdona nuestros pecados, líbranos del fuego del infierno, lleva al Cielo a todas las almas, especialmente a las más necesitadas de Tu infinita misericordia.
+          <br><br>
+          <b>Sagrado Corazón de Jesús</b>: en vos confío.
+        </p>
+      </div>
+
+      <!-- -------------------- ORACIONES FINALES -------------------- -->
+      <div class="oracion" id="oraciones-finales">
+        <h3>Ave María por la fe</h3>
+        <p>
+          <b>Dios te salve</b>, María Santísima, <b>Hija de Dios Padre</b>, Virgen Purísima antes del parto, en tus manos ponemos nuestra fe para que la ilumines.
+          <br>Llena eres de gracia, el Señor está contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.
+          <br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Ave María por la esperanza</h3>
+        <p>
+          <b>Dios te salve</b>, María Santísima, <b>Madre de Dios Hijo</b>, Virgen Purísima en el parto, en tus manos ponemos nuestra esperanza para que la alientes.
+          <br>Llena eres de gracia, el Señor está contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.
+          <br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Ave María por la caridad</h3>
+        <p>
+          <b>Dios te salve</b>, María Santísima, <b>Esposa de Dios Espíritu Santo</b>, Virgen Purísima después del parto, en tus manos ponemos nuestra caridad para que la inflames.
+          <br>Llena eres de gracia, el Señor está contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.
+          <br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion" id="letanias">
+        <h3>Letanías</h3>
+        <p>
+          <b>Señor, ten piedad,</b><br>
+          R: Señor, ten piedad.
+          <br><br>
+          Cristo, ten piedad, <br>
+          R: Cristo, ten piedad.
+          <br><br>
+          Señor, ten piedad, <br>
+          R: Señor, ten piedad.
+          <br><br>
+          <b>Cristo, óyenos,</b><br>
+          R: Cristo, óyenos.
+          <br><br>
+          Cristo, escúchanos, <br>
+          R: Cristo, escúchanos.
+          <br><br>
+          Dios, Padre celestial, <br>
+          R: ten piedad de nosotros.
+          <br><br>
+          Dios, Hijo, Redentor del mundo, <br>
+          R: ten piedad de nosotros.
+          <br><br>
+          Dios, Espíritu Santo, <br>
+          R: ten piedad de nosotros.
+          <br><br>
+          Santísima Trinidad, un solo Dios, <br>
+          R: ten piedad de nosotros.
+          <br><br><br>
+          <b>Santa María,</b> <br>
+          R: Ruega por nosotros. <em>(Se repite después de cada advocación mariana)</em>
+          <br>
+          Santa Madre de Dios,
+          <br>
+          Santa Virgen de las Vírgenes,
+          <br>
+          Madre de Cristo,
+          <br>
+          Madre de la Iglesia,
+          <br>
+          Madre de la Misericordia,
+          <br>
+          Madre de la divina gracia,
+          <br>
+          Madre de esperanza,
+          <br>
+          Madre purísima,
+          <br>
+          Madre castísima,
+          <br>
+          Madre siempre virgen,
+          <br>
+          Madre inmaculada,
+          <br>
+          Madre amable,
+          <br>
+          Madre admirable,
+          <br>
+          Madre del buen consejo,
+          <br>
+          Madre del Creador,
+          <br>
+          Madre del Salvador,
+          <br>
+          Virgen prudentísima,
+          <br>
+          Virgen digna de veneración,
+          <br>
+          Virgen digna de alabanza,
+          <br>
+          Virgen poderosa,
+          <br>
+          Virgen clemente,
+          <br>
+          Virgen fiel,
+          <br>
+          Espejo de justicia,
+          <br>
+          Trono de la sabiduría,
+          <br>
+          Causa de nuestra alegría,
+          <br>
+          Vaso espiritual,
+          <br>
+          Vaso digno de honor,
+          <br>
+          Vaso de insigne devoción,
+          <br>
+          Rosa mística,
+          <br>
+          Torre de David,
+          <br>
+          Torre de marfil,
+          <br>
+          Casa de oro,
+          <br>
+          Arca de la Alianza,
+          <br>
+          Puerta del cielo,
+          <br>
+          Estrella de la mañana,
+          <br>
+          Salud de los enfermos,
+          <br>
+          Refugio de los pecadores,
+          <br>
+          Consuelo de los migrantes,
+          <br>
+          Consoladora de los afligidos,
+          <br>
+          Auxilio de los cristianos,
+          <br>
+          Reina de los Ángeles,
+          <br>
+          Reina de los Patriarcas,
+          <br>
+          Reina de los Profetas,
+          <br>
+          Reina de los Apóstoles,
+          <br>
+          Reina de los Mártires,
+          <br>
+          Reina de los Confesores,
+          <br>
+          Reina de las Vírgenes,
+          <br>
+          Reina de todos los Santos,
+          <br>
+          Reina concebida sin pecado original,
+          <br>
+          Reina asunta a los Cielos,
+          <br>
+          Reina del Santísimo Rosario,
+          <br>
+          Reina de la familia,
+          <br>
+          Reina de la paz.
+          <br><br>
+
+          <b>Cordero de Dios</b>, que quitas el pecado del mundo, <br>
+          perdónanos, Señor.
+          <br><br>
+          Cordero de Dios, que quitas el pecado del mundo, <br>
+          escúchanos, Señor.
+          <br><br>
+          Cordero de Dios, que quitas el pecado del mundo, <br>
+          ten misericordia de nosotros.
+          <br><br>
+          <b>Ruega por nosotros, Santa Madre de Dios.</b> <br>
+          Para que seamos dignos de alcanzar las promesas de nuestro Señor Jesucristo.
+          <br><br>
+
+          <b>Oración</b> <br>
+          Te rogamos nos concedas, Señor Dios nuestro, gozar de continua salud de alma y cuerpo, y por la gloriosa intercesión de la bienaventurada siempre Virgen María, vernos libres de las tristezas de la vida presente y disfrutar de las alegrías eternas. <br>
+          Por Cristo nuestro Señor. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Por las intenciones del Santo Padre</h3>
+        <p>
+          <b>Padre nuestro</b>, que estás en el cielo, santificado sea tu Nombre; venga a nosotros tu reino; hágase tu voluntad en la tierra como en el cielo.
+          <br><br>
+          Danos hoy nuestro pan de cada día; perdona nuestras ofensas como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal.<b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Ave María</h3>
+        <p>
+          Dios te Salve, María, llena eres de gracia, el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús.<br><br>
+          Santa María, Madre de Dios, ruega por nosotros pecadores, ahora y en la hora de nuestra muerte. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Gloria</h3>
+        <p>
+          Gloria al Padre y al Hijo y al Espíritu Santo.<br>
+          Como era en el principio, ahora y siempre, por los siglos de los siglos. <b>Amén.</b>
+        </p>
+      </div>
+      
+      <div class="oracion">
+        <h3>Salve</h3>
+        <p>
+          <b>Dios te salve, Reina y Madre de misericordia</b>, vida, dulzura y esperanza nuestra; Dios te salve. A ti llamamos los desterrados hijos de Eva; a ti suspiramos, gimiendo y llorando en este valle de lágrimas. Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos; y después de este destierro, muéstranos a Jesús, fruto bendito de tu vientre. ¡Oh, clemente, oh piadosa, oh dulce Virgen María!.
+          <br><br>
+          <b>Ruega por nosotros</b>, Santa Madre de Dios, para que seamos dignos de alcanzar las promesas de Nuestro Señor Jesucristo. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Jaculatoria final</h3>
+        <p>
+          Ave María Purísima. <br>
+          Sin pecado concebida.
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3>Santiguarse</h3>
+        <p>
+          En el nombre del Padre y del Hijo y del Espíritu Santo. <b>Amén.</b>
+        </p>
+      </div>
+
+      <div class="oracion">
+        <h3></h3>
+        <p></p>
+      </div>
+
+    </div>
+
+    <!-- -------------------- BOTONES DE NAVEGACIÓN ORACIONES -------------------- -->
+    <div class="btns-oraciones">
+      <button id="anterior-btn" class="btn">Inicio</button>
+      <button id="siguiente-btn" class="btn">Siguiente Oración</button>
+    </div>
+
+  </main>
+
+</body>
+</html>
