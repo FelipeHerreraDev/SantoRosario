@@ -57,7 +57,7 @@ img {
 
 main {
   background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.7)),
-    url(/img/bg1.webp);
+    url(/img/bgMG.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -69,7 +69,7 @@ main {
 
 .main-clear-bg {
   background-image: linear-gradient(rgba(255, 255, 255, 1),rgba(255,255,255,.2), rgba(255,255,255,0), rgba(255,255,255,0)),
-  url(/img/bg.webp);
+  url(/img/bgMG.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -287,17 +287,4 @@ main {
   .btn {
     min-width: 200px;
   }
-}
-
-@media (min-width: 550px){
-  main {
-    background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.7)),
-    url(/img/bg2.webp);
-  }
-
-  .main-clear-bg {
-    background-image: linear-gradient(rgba(255, 255, 255, 1),rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0)),
-    url(/img/bg2.webp);
-  }
-
 }
