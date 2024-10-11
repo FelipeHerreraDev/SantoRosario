@@ -56,7 +56,7 @@ img {
 }
 
 main {
-  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.7)),
+  background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7), rgba(255,255,255,.7)),
     url(/img/bgMG.webp);
   background-position: center;
   background-repeat: no-repeat;
@@ -194,7 +194,8 @@ main {
 .oracion {
   display: none;
   font-weight: 400;
-  color: var(--950a);
+  font-size: 1.1rem;
+  color: black;
   max-width: 500px;
   min-height: 350px;
   margin: 0 auto;
@@ -212,6 +213,7 @@ main {
   margin-top: .5em;
 }
 
+/* ***** BOTÓNES ***** */
 .btns-oraciones {
   display: flex;
   justify-content: space-evenly;
@@ -225,17 +227,17 @@ main {
   font-size: 1em;
   cursor: pointer;
   font-family: "Outfit", sans-serif;
-  background-color: var(--500);
-  border: 1px solid var(--600);
+  background-color: var(--700);
+  border: 1px solid var(--900);
   border-radius: 5px;
-  color: var(--100);
+  color: var(--50);
   min-width: 100px;
   max-width: 150px;
 }
 
 .btn:disabled {
   background-color: var(--100);
-  color: var(--500);
+  color: var(--900);
 }
 
 /* ***** Contenedor de la barra de progreso ***** */
@@ -286,5 +288,11 @@ main {
 @media (min-width: 450px){
   .btn {
     min-width: 200px;
+  }
+}
+
+@media (min-width: 768px){
+  body {
+    font-size: 1.3rem;
   }
 }

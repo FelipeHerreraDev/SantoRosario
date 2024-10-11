@@ -11,6 +11,7 @@
     --900: #0c436e;
     --950: #082b49;
     --950: rgba(8,43,73,1.0);
+    --950a: #011b32;
 };
 
 html {
@@ -53,14 +54,14 @@ header img {
 
 .title {
   padding: 0;
-  color: var(--800);
+  color: var(--900);
   text-align: center;
   margin: .5em auto;
 }
 
 .info {
   font-weight: 400;
-  color: var(--950);
+  color: var(--950a);
   max-width: 600px;
   margin: 0 auto;
   padding: .8em;
@@ -73,13 +74,13 @@ header img {
   padding: .5em 1em;
   font-size: 1rem;
   cursor: pointer;
-  background-color: var(--600);
-  color: var(--100);
+  background-color: var(--700);
+  color: var(--50);
   border: none;
   border-radius: 5px;
   margin: 1em .5em;
   max-width: 500px;
-  box-shadow: 8px 8px 16px var(--800),
+  box-shadow: 8px 8px 16px var(--900),
   -8px -8px 16px var(--200);
 }
 
@@ -130,10 +131,6 @@ header img {
   cursor: pointer;
 }
 
-/* .card-img {
-  height: 140px;
-} */
-
 /* ***** MODAL METODOS ***** */
 .modal-contenido{
   display: flex;
@@ -179,22 +176,13 @@ header img {
 /* ***** CARDS MISTERIOS **** */
 
 .title-misterios-container {
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin: 1.5em 1em 0;
-  /* max-width: 500px; */
 }
 
-/* .grid-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
-
- .misterios {
+.misterios {
   max-width: 800px;
   margin: 0 auto;
 }
@@ -242,24 +230,24 @@ header img {
 
 .card-title {
   font-size: 1rem;
-  color: var(--950);
+  color: var(--950a);
 }
 
 .card-body small,
 .card-text {
-  color: var(--950);
+  color: var(--950a);
 }
 
 .btn-primary {
   text-decoration: none;
-  background-color: var(--500);
+  background-color: var(--700);
   font-size: 1.2rem;
   color: var(--50);
   text-align: center;
   cursor: pointer;
   padding: 10px 25px;
   border-radius: 10px;
-  border: 2px solid var(--700);
+  border: 2px solid var(--900);
 }
 
 .btn-primary:hover {
@@ -268,6 +256,6 @@ header img {
 
 @media (min-width: 768px){
   body {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 }
