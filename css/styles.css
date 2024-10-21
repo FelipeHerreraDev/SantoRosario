@@ -190,8 +190,8 @@ header img {
 .grid-container {
   display: grid;
   place-items: center;
-  grid-template-rows: repeat(auto-fit, 1fr);
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: stretch;
   gap: 8px;
   margin-bottom: 2rem;
 }
@@ -204,13 +204,8 @@ header img {
   border: 2px solid var(--950);
   border-radius: 20px;
   margin: .2em;
-  /* display: flex; */
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-color: var(--50);
   box-shadow: 10px 10px 20px 1px rgba(8,43,73,.36);
-  /* max-width: 280px; */
 }
 
 .card img {
@@ -236,6 +231,18 @@ header img {
 .card-body small,
 .card-text {
   color: var(--950a);
+}
+
+.list {
+  margin: 0;
+  margin-top: 1em;
+  padding: 0;
+  list-style-position: inside;
+  line-height: 1.5;
+}
+
+.list-item::marker {
+  font-weight: bold;
 }
 
 .btn-primary {
